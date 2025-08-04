@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #121212;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  padding-left:0px;
+
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.signUpBtn {
+  background-color: #e50914;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.logo-image {
+    max-width: 120px;
+    height: 110px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
