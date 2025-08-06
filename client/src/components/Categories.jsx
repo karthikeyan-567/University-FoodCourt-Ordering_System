@@ -45,6 +45,7 @@ const Categories = () => {
         <button>Rolls and Wraps</button>
         <button>Seafood Dishes</button>
         <button>Beverages</button>
+        <input type="text" placeholder="Search for food..." className="search-input" />
       </div>
       <h3 className="menu-heading">Today's Menu</h3>
 

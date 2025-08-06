@@ -1,0 +1,25 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: #121212;  */
+  opacity: 0.9;
+ background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/dosa.jpeg');
+  color: #fff;
+  background-attachment: fixed;
+      background-size: cover;       
+      background-repeat: no-repeat; 
+      background-position: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
