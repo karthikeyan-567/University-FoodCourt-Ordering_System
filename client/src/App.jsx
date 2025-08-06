@@ -1,16 +1,28 @@
-import './index.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Categories from './components/Categories';
+
+import Home from 
+import './App.css'
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider, Navigate } from 'react-router-dom'
+import Login from './pages/Login'
+import SignUp from './pages/SignUp'
+import './pageStyle/LoginSignup.css'
 
 function App() {
+  const router = createBrowserRouter(createRoutesFromElements(
+    <>
+      <Route path="/" element={<Navigate to="/login" />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<SignUp />} />
+    </>
+  ))
+
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Categories />
+      <RouterProvider router={router}>
+      </RouterProvider>
     </>
-  );
+    
+  )
+
 }
 
 export default App;
