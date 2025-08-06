@@ -11,6 +11,7 @@ const Navbar = () => {
         <a href="#">Home</a>
         <a href="#">Menu</a>
         <a href="#">About Us</a>
+        
         <button className="signUpBtn">Sign Up</button>
       </div>
     </nav>

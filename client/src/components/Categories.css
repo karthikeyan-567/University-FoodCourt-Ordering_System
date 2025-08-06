@@ -109,3 +109,16 @@
   background-color: #f44336;
   color: white;
 }
+.search-input{
+  gap:5px;
+  padding: 15px;
+  border-radius: 12px;
+  width:50%;
+  border: 1px solid #ccc;
+  border:none;
+  
+}
+.search-input:focus {
+  outline: none;
+ 
+}
