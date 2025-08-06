@@ -1,9 +1,9 @@
-import '../home.css';
+
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Categories from './components/Categories';
 
-function App() {
+function Home() {
   return (
     <>
       <Navbar />
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
