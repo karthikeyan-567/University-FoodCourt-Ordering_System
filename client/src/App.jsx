@@ -1,4 +1,5 @@
 
+import Home from 
 import './App.css'
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider, Navigate } from 'react-router-dom'
 import Login from './pages/Login'
@@ -21,6 +22,7 @@ function App() {
     </>
     
   )
+
 }
 
-export default App
+export default App;

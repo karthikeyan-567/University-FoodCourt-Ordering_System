@@ -1,0 +1,111 @@
+.categories-section {
+  padding: 40px;
+  background-color: #121212;
+  color: #fff;
+}
+
+.categories-heading {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.menu-heading {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.category-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+
+}
+
+.category-buttons button {
+  background-color: #2a2a2a;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.category-buttons .active {
+  background-color: #006400;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+.item-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.menu-card {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 12px;
+  width: 270px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 20px;
+}
+
+.menu-card img {
+  width: 250px;
+  height: 220px;
+  border-radius: 12px;
+  object-fit: cover; 
+}
+
+.price {
+  color: #e50914;
+  margin-top: 10px;
+}
+.order-btn {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.order-btn:hover {
+  background-color: #9abe48;
+  color:white
+}
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.quantity-controls button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%; 
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.quantity-controls button:hover {
+  background-color: #f44336;
+  color: white;
+}
