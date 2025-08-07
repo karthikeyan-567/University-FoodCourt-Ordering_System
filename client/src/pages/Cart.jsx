@@ -1,7 +1,8 @@
 import React from 'react'
 import Cartitem from '../components/Cartitems' 
 import '../cart.css'
-
+import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 function Cart() {
 
   let nonveg ="🟥";
@@ -14,14 +15,15 @@ function Cart() {
   </marquee>
 </div>
 
+<Navbar></Navbar>
     
         <div className='cart__container'>
         
        
        
         <div className='order-qt'>
-           <h1 className='text-success bg-light  p-3 ' style={{width:"fit-content" , borderRadius:"30px 10px" , boxShadow:"2px 2px 10px black"}}>Order Checkout </h1>
-                 <h1 className=' text-muted rounded-pill '>Appdiye oru plate happiness vaangitu ponga :) </h1>
+           <h3 className='text-success bg-light  p-3 ' style={{width:"fit-content" , borderRadius:"30px 10px" , boxShadow:"2px 2px 10px black"}}>Order Checkout </h3>
+                 <h3 className=' text-muted rounded-pill ' style={{}}>Appdiye oru plate happiness vaangitu ponga :) </h3>
            <h5 className='text-warning ' style={{marginTop:"20px"}}>Craving? ’s fix that! --- Order now, thank yourself later.</h5>
         </div>
          <table class="table user-detail">
@@ -54,7 +56,8 @@ function Cart() {
 </table>
  </div>
  <section className='cart-con' >
-    <h4 className='text-dark  px-3  py-2 ' style={{width:"fit-content " , position:"relative" , left:"10px" , top:"10px" , borderRadius:"10px" , }}>Location : <span className='fs-5'> Arcot chennai 600...</span></h4>
+    <h4 className='text-dark  px-3  py-2 ' style={{width:"fit-content " , position:"relative" , left:"10px" , top:"10px" , borderRadius:"10px" , }}>Location : <span className='fs-5'> Arcot chennai 600...</span>         <button className="btn btn-outline-primary btn-sm  " style={{position:"relative" , left:"20px" ,outline:"none"}}> <Link to="/home">Add More Item</Link> </button>
+</h4>
   <div>
    <Cartitem item_name="Biriyani" item_qty= {1 } item_type={nonveg}/>
    <Cartitem item_name="Idli sambar " item_qty={ 1} item_type={veg}/>

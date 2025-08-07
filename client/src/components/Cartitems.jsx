@@ -9,7 +9,7 @@ function Cartitems(props) {
 
   return (
     <div
-      className="itembox d-flex  align-items-center p-3 mb-3"
+      className="itembox d-flex  align-items-center p-3 mb-4"
       style={{
         backgroundColor: "#c4b492",
         borderRadius: "20px",
@@ -56,7 +56,6 @@ function Cartitems(props) {
       {/* Action Buttons - Flexible */}
       <div className="d-flex align-items-center gap-3" style={{position:"relative" , left:"200px"}}>
         <button className="btn btn-outline-danger btn-sm">Delete</button>
-        <button className="btn btn-outline-primary btn-sm">Add Item</button>
         <button className="btn btn-outline-secondary btn-sm">Cooking Instructions</button>
       </div>
     </div>

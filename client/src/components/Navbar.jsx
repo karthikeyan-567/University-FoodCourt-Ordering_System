@@ -1,5 +1,7 @@
+// import SignUp from '../pages/SignUp';
 import './Navbar.css';
 
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -8,11 +10,13 @@ const Navbar = () => {
       <div className="logo">R.M.K Engineering College FoodCourt</div>
       </div>
       <div className="links">
-        <a href="#">Home</a>
-        <a href="#">Menu</a>
-        <a href="#">About Us</a>
+        {/* <a href="#">Home</a> */}
+        <Link to="/home" >Home</Link>
+        <a href="#categories-section">Menu</a>
+        <Link to={"/Cart"}>Order lobby</Link>
+       <Link to={"/about"}> About Us</Link>
         
-        <button className="signUpBtn">Sign Up</button>
+        <button className="signUpBtn"><Link to={"/Signup"}> Sign Up</Link></button>
       </div>
     </nav>
   );

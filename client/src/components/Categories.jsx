@@ -36,7 +36,7 @@ const Categories = () => {
     });
   };
   return (
-    <section className="categories-section">
+    <section  id='categories-section' className="categories-section">
       <h2 className="categories-heading">Top Categories</h2>
       <div className="category-buttons">
         <button className="active">All</button>
