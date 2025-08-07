@@ -4,6 +4,9 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider, N
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
 import './pageStyle/LoginSignup.css'
+import './pageStyle/Cart.css'
+import Cart from './pages/Cart'
+import Cartitem from './pages/Cartitem';
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -12,6 +15,8 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/home" element={<Home />} />
       <Route path="/signup" element={<SignUp />} />
+      <Route path="/cart" element={<Cart />} />
+      <Route path="/cartitems" element={<Cartitem />} />
     </>
   ))
 
@@ -20,7 +25,7 @@ function App() {
       <RouterProvider router={router}>
       </RouterProvider>
     </>
-    
+
   )
 
 }
