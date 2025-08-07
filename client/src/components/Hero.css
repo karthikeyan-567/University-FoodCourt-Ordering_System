@@ -4,7 +4,7 @@
   justify-content: space-between;
   padding: 60px;
   flex-wrap: wrap;
-  background-color: #121212;
+  /* background-color: #121212; */
 }
 
 .hero-text {
@@ -38,4 +38,11 @@
 
 .hero-image {
   max-width: 400px;
+}
+.orderurfood {
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+ 
 }

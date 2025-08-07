@@ -20,6 +20,8 @@
 
 .links {
   display: flex;
+  list-style: none;
+   color: #fff;
   gap: 20px;
   align-items: center;
 }
@@ -41,4 +43,9 @@
 .logo-container {
   display: flex;
   align-items: center;
+}
+a{
+  color: #fff;
+  border-bottom: none;
+  border:none;
 }

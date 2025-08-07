@@ -1,6 +1,6 @@
 .categories-section {
   padding: 40px;
-  background-color: #121212;
+  /* background-color: #121212; */
   color: #fff;
 }
 
@@ -46,18 +46,6 @@
   border-radius: 12px;
   object-fit: cover;
 }
-.menu-card {
-  background-color: #222;
-  padding: 20px;
-  border-radius: 12px;
-  width: 270px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3px;
-  margin-bottom: 20px;
-}
 
 .menu-card img {
   width: 250px;
@@ -83,27 +71,7 @@
   background-color: #9abe48;
   color:white
 }
-.quantity-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin: 10px 0;
-}
 
-.quantity-controls button {
-  width: 40px;
-  height: 40px;
-  border: none;
-  background-color: white;
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 50%; 
-  cursor: pointer;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  transition: all 0.2s ease-in-out;
-}
 
 .quantity-controls button:hover {
   background-color: #f44336;
@@ -113,7 +81,7 @@
   gap:5px;
   padding: 15px;
   border-radius: 12px;
-  width:50%;
+  width:42%;
   border: 1px solid #ccc;
   border:none;
   
