@@ -8,7 +8,6 @@ import './pageStyle/LoginSignup.css'
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
     <>
-   
       <Route path="/" element={<Navigate to="/login" />} />
       <Route path="/login" element={<Login />} />
       <Route path="/home" element={<Home />} />
